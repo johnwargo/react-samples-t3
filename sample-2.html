@@ -1,0 +1,68 @@
+<!-- This base React file stolen from https://www.kirupa.com/react/creating_complex_components.htm -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sample 2</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+        color: white;
+        text-align: center;
+        }
+
+        p {
+        font-family: verdana;
+        font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="react-container"></div>
+    <script type="text/babel">
+        class P1 extends React.Component {
+            render() {
+                return(
+                    <p>Strip steak kielbasa cow rump, alcatra tri-tip tongue ribeye. Ground round hamburger meatloaf beef ribs spare ribs salami pork tongue brisket turkey venison. Burgdoggen filet mignon fatback pig capicola beef ribs. Jerky fatback filet mignon picanha short ribs rump pancetta tail pork loin cupim shankle burgdoggen t-bone. Beef pork meatball sirloin rump ball tip shoulder, corned beef leberkas tail.</p>
+                );
+            }
+        }
+            
+        class P2 extends React.Component {
+            render() {
+                return(
+                    <p>Bacon ipsum dolor amet pancetta tongue doner buffalo fatback burgdoggen drumstick. Short loin turducken rump prosciutto meatloaf. Alcatra tongue salami, tri-tip shoulder jowl ribeye burgdoggen buffalo turkey chicken short loin chuck turducken. Boudin tenderloin pork, ham drumstick sausage pig porchetta burgdoggen cow kielbasa corned beef pancetta shoulder brisket. Porchetta capicola andouille buffalo meatball tail bresaola beef filet mignon rump. Turducken porchetta cow, rump pancetta landjaeger venison. Chicken andouille jerky pig tail beef ribs hamburger bacon.</p>
+                );
+            }
+            }
+            
+        class Button1 extends React.Component {
+            render() {
+                return(
+                    <button>Click Me!</button>
+                );
+            }
+        }
+
+        ReactDOM.render(
+            <div>
+                <h1>My Cool React Page</h1>
+                <P1 />
+                <P2 />
+                <Button1 />
+            </div>,
+          document.querySelector("#react-container")
+        );
+    </script>
+</body>
+
+</html>
