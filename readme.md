@@ -16,3 +16,9 @@ The repository contains the following files:
 + `paragraphs.js`: External JavaScript file containing the paragraph content for the page.
 + `sample-7.html`: Implements a clunky approach to changing the behavior of buttons through `props`.
 + `sample-8.html`: A cleaner implementation of dynamic button action.
+
+***
+
+You can find information on many different topics on my [personal blog](http://www.johnwargo.com). Learn about all of my publications at [John Wargo Books](http://www.johnwargobooks.com).
+
+If you find this code useful and feel like thanking me for providing it, please consider <a href="https://www.buymeacoffee.com/johnwargo" target="_blank">Buying Me a Coffee</a>, or making a purchase from [my Amazon Wish List](https://amzn.com/w/1WI6AAUKPT5P9).
